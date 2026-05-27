@@ -89,32 +89,32 @@
     "redirects": [
       {
         "source": "/pc",
-        "destination": "/api/?type=pc",
+        "destination": "/api?type=pc",
         "statusCode": 302
       },
       {
         "source": "/pe",
-        "destination": "/api/?type=pe",
+        "destination": "/api?type=pe",
         "statusCode": 302
       },
       {
         "source": "/ua",
-        "destination": "/api/?type=ua",
+        "destination": "/api?type=ua",
         "statusCode": 302
       },
         {
         "source": "/pc/:id",
-        "destination": "/api/?type=pc&id=:id",
+        "destination": "/api?type=pc&id=:id",
         "statusCode": 302
       },
       {
         "source": "/pe/:id",
-        "destination": "/api/?type=pe&id=:id",
+        "destination": "/api?type=pe&id=:id",
         "statusCode": 302
       },
       {
         "source": "/ua/:id",
-        "destination": "/api/?type=ua&id=:id",
+        "destination": "/api?type=ua&id=:id",
         "statusCode": 302
       }
       
