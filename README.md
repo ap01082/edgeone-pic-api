@@ -3,8 +3,8 @@
   <h1>EdgeOne Pic API</h1>
   <p>基于腾讯云 EdgeOne Pages 构建的高性能、自适应随机图片 API 服务</p>
 
-  <a href="https://pic.elvish.me/ua">演示地址</a> ·
-  <a href="https://pic.elvish.me">项目主页</a>
+  <a href="https://pic.tr11.cn/ua">演示地址</a> ·
+  <a href="https://pic.tr11.cn">项目主页</a>
 </div>
 
 ## ✨ 功能特性
@@ -24,7 +24,7 @@
 | **获取竖屏图片** | `GET /pe` | `GET /api?type=pe` | 适合移动端展示 (竖屏) |
 | **设备自适应** | `GET /ua` | `GET /api?type=ua` | 根据 User-Agent 智能调度 |
 
-> **防止缓存/重复** (可选)：在地址末尾加上`/<number>`，例如 `https://pic.elvish.me/ua/1`
+> **防止缓存/重复** (可选)：在地址末尾加上`/<number>`，例如 `https://pic.tr11.cn/ua/1`
 
 ## 💻 调用示例
 
